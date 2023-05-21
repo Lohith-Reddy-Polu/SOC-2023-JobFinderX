@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: darkblue;
+}
+
+.nav-items {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-items a {
+    flex: 20%;
+    font-size: 35px;
+    color: black;
+    margin-right: 40px;
+}
+
+.nav-items a:hover {
+    background-color: red;
+    scale: 1.1;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text {
+    flex: 1;
+    flex-basis: inherit;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    margin-right: 20px;
+}
+
+#mail {
+    flex: 1;
+    flex-basis: inherit;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
+
+#Subject {
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    margin-top: 10px;
+}
+
+#Message {
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    margin-top: 10px;
+}
+#body {
+    background-color: black;
+}
+#button{
+    color: black;
+}

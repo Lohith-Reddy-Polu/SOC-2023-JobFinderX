@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: darkblue;
+}
+
+.nav-items {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-items a {
+    flex: 20%;
+    font-size: 35px;
+    color: black;
+    margin-right: 40px;
+}
+
+.nav-items a:hover {
+    background-color: darkblue;
+    scale: 1.1;
+}
+
+#title {
+    margin-top: 20px;
+    background-color: coral;
+    background-image: url(https://img.freepik.com/free-vector/hand-draw-education-doodle-sketch-icon-set_1035-20495.jpg?w=740&t=st=1684616394~exp=1684616994~hmac=fcdfe6406a6b54a4fea46516c9b6697287d226a9f61be61301c1497b421de993);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;
+}
+
+#heading {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color-scheme: b;
+}
+#first-row{
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    flex:1;
+    margin-right: 20px;
+}
+#second{
+    flex:1;
+    margin-right: 20px;
+}
+#third{
+    flex:1;
+}
+.card:hover{
+    scale: 1.02;
+}

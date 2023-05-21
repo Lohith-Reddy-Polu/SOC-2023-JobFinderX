@@ -1,0 +1,150 @@
+#about {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:cyan;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: right;
+}
+
+#image {
+    flex: 1;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+#image:hover {
+    scale: 1.11;
+}
+
+#desc {
+    flex: 3;
+    margin-right: 20px;
+    background-color: rgba(22,22,22,0);
+    color: ghostwhite;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: darkblue;
+}
+
+.nav-items {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-items a {
+    flex: 20%;
+    font-size: 35px;
+    color: black;
+    margin-right: 40px;
+}
+
+.nav-items a:hover {
+    background-color: red;
+    scale: 1.1;
+}
+
+#title h1 {
+    text-align: center;
+    color: wheat;
+    animation-name: title-animate;
+    animation-delay: 300ms;
+    position: relative;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#title {
+    background-color:darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@keyframes title-animate {
+    from {
+        left: 0px;
+        top: 25px;
+    }
+
+    to {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+#footer-head {
+    text-align: center;
+    color: burlywood;
+    font: bold;
+    font-size: 35px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icon-1 {
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#icon-2 {
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#icon-3 {
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#icon-4 {
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#icon-4 p {
+    text-align: center;
+    color: white;
+}
+
+#icon-3 p {
+    text-align: center;
+    color: white;
+}
+
+#icon-2 p {
+    text-align: center;
+    color: white;
+}
+
+#icon-1 p {
+    text-align: center;
+    color: white;
+}

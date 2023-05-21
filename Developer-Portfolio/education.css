@@ -1,0 +1,79 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: darkblue;
+}
+
+.nav-items {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-items a {
+    flex: 20%;
+    font-size: 35px;
+    color: black;
+    margin-right: 40px;
+}
+
+.nav-items a:hover {
+    background-color: red;
+    scale: 1.1;
+}
+
+#title {
+    background-image: url(images/education.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    animation-name: title;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    text-decoration: solid;
+    font-size: 20px;
+
+}
+
+@keyframes title {
+    from {
+        color: #000;
+    }
+
+    to {
+        color: red;
+    }
+}
+#heading{
+    color: darkgreen;
+    font-weight: 800;
+    animation-name: animate;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes animate {
+    from {left: 0px;}
+    to {left: 620px;}
+}
+td{
+    text-align: center;
+    color: aquamarine;
+}
+table{
+    padding-top: 30pt;
+    background-color: chocolate;
+}
+th{
+    text-align: center;
+}
